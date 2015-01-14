@@ -1,0 +1,51 @@
+<form>
+            <div id="result"></div>
+            <div class="large-12 columns">
+              <label>Input Label
+                <input id="name" type="text" placeholder="Your Name" />
+              </label>
+            </div>
+
+            <div class="large-4 columns">
+              <label>Input Label
+                <input id="email" type="text" placeholder="Your Email" />
+              </label>
+            </div>
+            <div class="large-4 columns">
+              <label>Input Label
+                <input id="phone" type="text" placeholder="Phone" />
+              </label>
+            </div>
+            <div class="large-4 columns">
+              <div class="row collapse">
+                <label>Input Label</label>
+                <div class="small-9 columns">
+                  <input type="text" id="website" placeholder="Your Website -(If you like)" />
+                </div>
+                <div class="small-3 columns">
+                  <span class="postfix">.com</span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="large-12 columns">
+              <label>Select Box
+                <select>
+                  <option value="Contact">Contact me about</option>
+                  <option value="Work">Work</option>
+                  <option value="Hello">Just saying Hello</option>
+                </select>
+              </label>
+            </div>
+
+
+            <div class="large-12 columns">
+              <label>Textarea Label
+                <textarea  id="message" placeholder="The Details"></textarea>
+              </label>
+            </div>
+            <div class="small-12 large-centered columns text-center">
+              <input id="submit_btn" class="button" type="submit" value="Send Message" /><br />
+            </div>   
+          </form>
